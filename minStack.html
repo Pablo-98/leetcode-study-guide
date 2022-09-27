@@ -7,6 +7,42 @@
     <title>min-stack</title>
 </head>
 <body>
+    <a href="index.html"> 00 Home</a>
+    <h1> Welcome to the Min Stack problem!</h1>
+    <p> Implement the Minstack class:</p>
+    <ul>
+        <li> MinStack() initializes the stack object.</li>
+        <li> void push(int val) pushes the element val onto the stack.</li>
+        <li> void pop() removes the element on the top of the stack.</li>
+        <li> int top() gets the top element of the stack.</li>
+        <li> int getMin() retrieves the minimum element in the stack</li>
+    </ul>
+    <p> You must implement a solution with o(1) time complexity for each function</p>
+    <p> Ex.1: Input ["MinStack","push","push","push","getMin","pop","top","getMin"]
+        [[],[-2],[0],[-3], [], [], [], []]
+    </p>
+    <p> Output: [null,null,null,null,-3,null,0,-2]</p>
+    <p> Explanation: </p>
+    <ul>
+        <ul>Minstack minStack = new MinStack();</ul>
+       <ul> minstack.push(-2);</ul> 
+       <ul> minstack.push(0);</ul> 
+       <ul> minstack.push(-3);</ul> 
+       <ul> minstack.getMin(); // return -3</ul> 
+       <ul> minstack.pop();</ul> 
+       <ul> minstack.top(); // return 0</ul> 
+       <ul> minstack.getMin(); // return -2</ul> 
+
+        </ul>
+        <h2> Constraints:</h2>
+        <ul> 
+            <li> <p> -2^31 <= val <= 2^31 -1  </p></li>
+            <li> <p> Methods pop, top and getMin operations will always be called on non-empty stacks  </p></li>
+            <li> <p> At most 3 * 10^4 calls will be made to push, pop, top, and getMin </p></li>
+        
+        </ul>
+    
+
     
 </body>
 </html>
