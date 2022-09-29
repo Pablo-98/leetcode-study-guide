@@ -29,9 +29,6 @@ li {
     display: flex;
 }
 
-h1{
-    color: red;
-}
 /* styles from index.css end here */
 html, body{
     height: 100%;
@@ -46,7 +43,6 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 
 }
 
